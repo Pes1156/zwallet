@@ -14,3 +14,17 @@ root.render(
     <App />
   </React.StrictMode>
 );
+
+// PWA Service Worker Registration
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('./sw.js').then(
+      (registration) => {
+        console.log('ZenWallet SW registered: ', registration.scope);
+      },
+      (err) => {
+        console.log('ZenWallet SW registration failed: ', err);
+      }
+    );
+  });
+}

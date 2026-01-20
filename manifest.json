@@ -1,0 +1,19 @@
+
+{
+  "name": "ZenWallet Finance",
+  "short_name": "ZenWallet",
+  "description": "Mindful and minimalist personal finance tracker.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#09090b",
+  "theme_color": "#10b981",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/10041/10041851.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
