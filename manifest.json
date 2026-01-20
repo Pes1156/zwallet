@@ -1,12 +1,12 @@
 
 {
-  "name": "ZenWallet Finance",
+  "name": "ZenWallet - Finanza Personale",
   "short_name": "ZenWallet",
-  "description": "Mindful and minimalist personal finance tracker.",
+  "description": "Monitoraggio spese consapevole con estetica premium.",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#09090b",
-  "theme_color": "#10b981",
+  "theme_color": "#09090b",
   "orientation": "portrait",
   "icons": [
     {
